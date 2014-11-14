@@ -2,7 +2,7 @@ module Scale where
 
 import Note
 
-data Scale = S [Integer]
+data Scale = S [Integer] deriving Show
 
 fromList :: [Integer]-> Scale
 fromList = S
